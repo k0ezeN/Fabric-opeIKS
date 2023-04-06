@@ -163,7 +163,7 @@ function apply_network_orderers() {
   apply_kustomization config/orderers
 
   # give the operator a chance to run the first reconciliation on the new resource
-  sleep 1
+  sleep 30
 
   pop_fn
 }
